@@ -3,7 +3,7 @@ entries:
   berglas-webhook:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-03T17:52:28.89253-06:00"
+    created: "2024-02-03T17:57:16.591569-06:00"
     description: A Kubernetes mutating webhook for gcp secret manager
     digest: f9346919bb1f238e11f44d6be00ef75300561b5d3eb8fb8adfa449e738d0482f
     icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
@@ -15,6 +15,6 @@ entries:
     name: berglas-webhook
     type: application
     urls:
-    - https://barreramelchorf/github.io/helm-chart/berglas-webhook-0.0.0.tgz
+    - https://barreramelchorf.github.io/helm-chart/berglas-webhook-0.0.0.tgz
     version: 0.0.0
-generated: "2024-02-03T17:52:28.89101-06:00"
+generated: "2024-02-03T17:57:16.587549-06:00"
