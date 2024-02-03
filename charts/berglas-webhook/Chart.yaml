@@ -1,0 +1,12 @@
+apiVersion: v2
+type: application
+name: berglas-webhook
+version: 0.0.0
+appVersion: latest
+description: A Kubernetes mutating webhook for gcp secret manager
+icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
+keywords:
+  - webhook
+maintainers:
+  - name: Fernando Barrera Melchor
+    email: barreramelchorf@gmail.com
