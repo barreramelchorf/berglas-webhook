@@ -62,7 +62,7 @@ require (
 	github.com/sirupsen/logrus v1.9.2 // indirect
 	github.com/slok/kubewebhook/v2 v2.5.0
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/crypto v0.16.0 // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/oauth2 v0.12.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
