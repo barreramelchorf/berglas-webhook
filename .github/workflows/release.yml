@@ -1,0 +1,22 @@
+name: Build and Push Docker Image
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Build and Push Docker Image
+      run: |
+        DOCKER_IMAGE_NAME=$(echo "${{ github.repository }}" | awk -F / '{print $2}')
+        TAG_NAME=$(echo "${{ github.ref }}" | sed 's#refs/tags/##')
+        
+        docker build -t ghcr.io/${{ github.repository }}/${DOCKER_IMAGE_NAME}:${TAG_NAME} .
+        docker push ghcr.io/${{ github.repository }}/${DOCKER_IMAGE_NAME}:${TAG_NAME}
