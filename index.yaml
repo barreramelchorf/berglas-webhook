@@ -3,9 +3,9 @@ entries:
   berglas-webhook:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-03T17:59:15.824729-06:00"
+    created: "2024-02-04T13:25:18.567514-06:00"
     description: A Kubernetes mutating webhook for gcp secret manager
-    digest: f9346919bb1f238e11f44d6be00ef75300561b5d3eb8fb8adfa449e738d0482f
+    digest: b6f4db3297d24daf64b3b08b8a07fab61f835359d75057a72ff1faa4ad235429
     icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
     keywords:
     - webhook
@@ -15,6 +15,38 @@ entries:
     name: berglas-webhook
     type: application
     urls:
-    - https://barreramelchorf.github.io/berglas-webhook/berglas-webhook-0.0.0.tgz
-    version: 0.0.0
-generated: "2024-02-03T17:59:15.82269-06:00"
+    - https://barreramelchorf.github.io/berglas-webhook/berglas-webhook-v0.1.1.tgz
+    version: v0.1.1
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-02-04T13:25:18.566726-06:00"
+    description: A Kubernetes mutating webhook for gcp secret manager
+    digest: 07474e886ce1d2a601e4558db9f095cd2bc8d2f9f4fecfa79fcea98b1fccfa25
+    icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
+    keywords:
+    - webhook
+    maintainers:
+    - email: barreramelchorf@gmail.com
+      name: Fernando Barrera Melchor
+    name: berglas-webhook
+    type: application
+    urls:
+    - https://barreramelchorf.github.io/berglas-webhook/berglas-webhook-v0.1.0.tgz
+    version: v0.1.0
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-02-04T13:25:18.565979-06:00"
+    description: A Kubernetes mutating webhook for gcp secret manager
+    digest: 3776f02595febfbbfcb34b807d018f7f2545e190c2d8648a11c3a2bbdd169fd9
+    icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
+    keywords:
+    - webhook
+    maintainers:
+    - email: barreramelchorf@gmail.com
+      name: Fernando Barrera Melchor
+    name: berglas-webhook
+    type: application
+    urls:
+    - https://barreramelchorf.github.io/berglas-webhook/berglas-webhook-v0.0.0.tgz
+    version: v0.0.0
+generated: "2024-02-04T13:25:18.565084-06:00"
