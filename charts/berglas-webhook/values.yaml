@@ -82,7 +82,16 @@ labels: {}
   # team: banzai
 
 # -- Resources to request for the deployment and pods
-resources: {}
+resources: {
+  limits: {
+    cpu: 20m,
+    memory: 128Mi
+  },
+  requests: {
+    cpu: 10m,
+    memory: 64Mi
+  }
+}
 
 # -- Node labels for pod assignment.
 # Check: https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#nodeselector
@@ -197,3 +206,10 @@ dnsPolicy: ""
 
 # -- Override cluster version
 kubeVersion: ""
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 75
+  targetMemoryUtilizationPercentage: 75
