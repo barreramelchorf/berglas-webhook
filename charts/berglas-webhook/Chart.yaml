@@ -1,7 +1,7 @@
 apiVersion: v2
 type: application
 name: berglas-webhook
-version: 'v0.0.0'
+version: 'v0.1.2'
 appVersion: latest
 description: A Kubernetes mutating webhook for gcp secret manager
 icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg

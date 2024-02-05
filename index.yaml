@@ -3,7 +3,23 @@ entries:
   berglas-webhook:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-04T13:25:18.567514-06:00"
+    created: "2024-02-05T16:47:40.62457-06:00"
+    description: A Kubernetes mutating webhook for gcp secret manager
+    digest: 80e8dea6085e14ffc89875bba4e599c88ee562d8a15cee6d104897cb6d1c171e
+    icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
+    keywords:
+    - webhook
+    maintainers:
+    - email: barreramelchorf@gmail.com
+      name: Fernando Barrera Melchor
+    name: berglas-webhook
+    type: application
+    urls:
+    - https://barreramelchorf.github.io/berglas-webhook/berglas-webhook-v0.1.2.tgz
+    version: v0.1.2
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-02-05T16:47:40.623724-06:00"
     description: A Kubernetes mutating webhook for gcp secret manager
     digest: b6f4db3297d24daf64b3b08b8a07fab61f835359d75057a72ff1faa4ad235429
     icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
@@ -19,7 +35,7 @@ entries:
     version: v0.1.1
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-04T13:25:18.566726-06:00"
+    created: "2024-02-05T16:47:40.622783-06:00"
     description: A Kubernetes mutating webhook for gcp secret manager
     digest: 07474e886ce1d2a601e4558db9f095cd2bc8d2f9f4fecfa79fcea98b1fccfa25
     icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
@@ -35,7 +51,7 @@ entries:
     version: v0.1.0
   - apiVersion: v2
     appVersion: latest
-    created: "2024-02-04T13:25:18.565979-06:00"
+    created: "2024-02-05T16:47:40.620955-06:00"
     description: A Kubernetes mutating webhook for gcp secret manager
     digest: 3776f02595febfbbfcb34b807d018f7f2545e190c2d8648a11c3a2bbdd169fd9
     icon: https://upload.wikimedia.org/wikipedia/commons/0/01/Google-cloud-platform.svg
@@ -49,4 +65,4 @@ entries:
     urls:
     - https://barreramelchorf.github.io/berglas-webhook/berglas-webhook-v0.0.0.tgz
     version: v0.0.0
-generated: "2024-02-04T13:25:18.565084-06:00"
+generated: "2024-02-05T16:47:40.61844-06:00"
